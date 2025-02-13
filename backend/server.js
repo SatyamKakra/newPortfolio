@@ -8,9 +8,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors({ origin: "https://satyamkakra.github.io" }));
+app.use(cors());
+// app.use(cors({ origin: "https://satyamkakra.github.io" }));
 app.use(bodyParser.json());
-
 
 // Nodemailer Transporter
 const transporter = nodemailer.createTransport({

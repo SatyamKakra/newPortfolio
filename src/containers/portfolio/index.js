@@ -4,8 +4,9 @@ import { RiProfileFill } from "react-icons/ri";
 import ImageOne from "../../images/hrms_image.png";
 import ImageTwo from "../../images/image2.jpg";
 import ImageThree from "../../images/image3.jpg";
-import ImageFour from "../../images/image4.jpg";
+import ImageFour from "../../images/event.jpg";
 import ImageFive from "../../images/image5.jpg";
+import ImageSix from "../../images/finance.jpg"
 import "./styles.scss";
 import { useState } from "react";
 
@@ -17,6 +18,18 @@ const portfolioData = [
     link: "https://dev-hrms.prilient.com/",
   },
   {
+    id: 2,
+    name: "Finance App",
+    image: ImageSix,
+    link: "https://satyamkakra.github.io/demigod-finance/",
+  },
+  {
+    id: 2,
+    name: "Event Website",
+    image: ImageFour,
+    link: "https://satyamkakra.github.io/Event/",
+  },
+  {
     id: 3,
     name: "Voting App",
     link: "",
@@ -24,15 +37,8 @@ const portfolioData = [
   },
   {
     id: 2,
-    name: "Finance App",
-    image: ImageThree,
-    link: "https://satyamkakra.github.io/demigod-finance/",
-  },
-  {
-    id: 2,
     name: "Todo App",
-    image: ImageFour,
-
+    image: ImageThree,
     link: "",
   },
   {
