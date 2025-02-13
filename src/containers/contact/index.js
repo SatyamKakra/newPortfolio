@@ -67,7 +67,7 @@ const Contact = () => {
 
     try {
       // const response = await fetch("http://localhost:5000/send-email", {
-      const response = await fetch("https://newportfolio-pz5l.onrender.com/send-email", {
+      const response = await fetch("https://newportfolio-poxx.onrender.com/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
