@@ -66,8 +66,7 @@ const Contact = () => {
     }
 
     try {
-      // const response = await fetch("http://localhost:5000/send-email", {
-      const response = await fetch("https://SatyamKakra.github.io/send-email", {
+      const response = await fetch("http://localhost:5000/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
