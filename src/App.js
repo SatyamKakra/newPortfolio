@@ -1,5 +1,5 @@
 import './App.scss';
-import {Routes, Route, useLocation, HashRouter as Router} from 'react-router-dom';
+import {Routes, Route, useLocation} from 'react-router-dom';
 import Particles from 'react-tsparticles';
 import {loadFull} from 'tsparticles'; 
 import Home from './containers/home';
@@ -35,7 +35,7 @@ renderParticleJsInHomePage && (
 <Navbar/>
   {/* main page content */}
   <div className='App_main-page-content'>
-  <Router>
+  {/* <Router> */}
   <Routes>
   <Route index path='/' element={<Home/>} />
   <Route path='/about' element={<About/>} />
@@ -44,7 +44,7 @@ renderParticleJsInHomePage && (
   <Route path='/portfolio' element={<Portfolio/>} />
   <Route path='/contact' element={<Contact/>} />
   </Routes>
-  </Router>
+  {/* </Router> */}
   </div>
     </div>
   );
